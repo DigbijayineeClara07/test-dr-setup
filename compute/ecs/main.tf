@@ -1,5 +1,5 @@
 module "autoScalingLaunchTemplate" {
-  source = "../autoScalingLaunchTemplate"  # Path to the autoscaling module
+  source = "../../autoScalingLaunchTemplate"  # Path to the autoscaling module
 }
 resource "aws_ecs_cluster" "tfer--admin-workflow-qa" {
   name = "admin-workflow-qa"
